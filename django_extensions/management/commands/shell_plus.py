@@ -365,7 +365,7 @@ class Command(BaseCommand):
 
         shell = None
         shell_name = "any"
-        set_application_name()
+        # set_application_name()
         if use_kernel:
             shell = get_kernel()
             shell_name = "IPython Kernel"
